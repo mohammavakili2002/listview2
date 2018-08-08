@@ -93,7 +93,7 @@ class ItemAdapter extends ArrayAdapter<String> {
             imageView.setImageResource(R.drawable.toweny);
         }
 
-        /* else  if (item.equals("father")) {
+         else  if (item.equals("father")) {
             imageView.setImageResource(R.drawable.father);
         }   else  if (item.equals("mother")) {
             imageView.setImageResource(R.drawable.mother);
@@ -120,7 +120,7 @@ class ItemAdapter extends ArrayAdapter<String> {
         }    else  if (item.equals("parent")) {
             imageView.setImageResource(R.drawable.parent);
         }    else  if (item.equals("child")) {
-            imageView.setImageResource(R.drawable.child);
+            imageView.setImageResource(R.drawable.childd);
         }     else  if (item.equals("boysister")) {
             imageView.setImageResource(R.drawable.boy);
         }       else  if (item.equals("boybroter")) {
@@ -137,7 +137,7 @@ class ItemAdapter extends ArrayAdapter<String> {
             imageView.setImageResource(R.drawable.girl);
         }     else  if (item.equals("girlbrother")) {
             imageView.setImageResource(R.drawable.girl);
-        } */         else  if (item.equals("white")) {
+        }         else  if (item.equals("white")) {
             imageView.setImageResource(R.drawable.white);
         }        else  if (item.equals("brown")) {
             imageView.setImageResource(R.drawable.brown);
