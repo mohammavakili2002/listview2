@@ -40,8 +40,8 @@ public class familyActivity extends AppCompatActivity {
         familys.add(getString(R.string.brother));
         familys.add(getString(R.string.parent));
         familys.add(getString(R.string.child));
-        familys.add(getString(R.string.boy));
-        familys.add(getString(R.string.boyaunt));
+
+
 
         ItemAdapter adapter = new ItemAdapter(this, familys);
 

@@ -33,6 +33,7 @@ public class numberActivity extends AppCompatActivity {
         number.add(getString(R.string.fifteen));
         number.add(getString(R.string.sixteen));
         number.add(getString(R.string.seventeen));
+        number.add("18");
         number.add(getString(R.string.ninteen));
         number.add(getString(R.string.tweny));
 

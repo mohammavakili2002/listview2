@@ -97,21 +97,23 @@ class ItemAdapter extends ArrayAdapter<String> {
             imageView.setImageResource(R.drawable.father);
         }   else  if (item.equals("mother")) {
             imageView.setImageResource(R.drawable.mother);
-        }    else  if (item.equals("sister")) {
+        }    else    if (item.equals("boy")) {
+            imageView.setImageResource(R.drawable.boy);
+        }       else   if (item.equals("boy aunt")) {
+            imageView.setImageResource(R.drawable.boy);
+        }      else   if (item.equals("sister")) {
             imageView.setImageResource(R.drawable.sister);
         }     else  if (item.equals("brother")) {
             imageView.setImageResource(R.drawable.brother);
-        }       else  if (item.equals("boy")) {
-            imageView.setImageResource(R.drawable.boy);
-        }      else  if (item.equals("uncle")) {
+        }       else     if (item.equals("uncle")) {
             imageView.setImageResource(R.drawable.uncle);
         }         else  if (item.equals("aunt")) {
             imageView.setImageResource(R.drawable.aunt);
         }      else  if (item.equals("girl")) {
             imageView.setImageResource(R.drawable.girl);
-        }      else  if (item.equals("grandmother")) {
+        }      else  if (item.equals("grand mother")) {
             imageView.setImageResource(R.drawable.grandmother);
-        }       else  if (item.equals("grandfather")) {
+        }       else  if (item.equals("grand father")) {
             imageView.setImageResource(R.drawable.grandfather);
         }         else  if (item.equals("wife")) {
             imageView.setImageResource(R.drawable.wife);
@@ -121,21 +123,20 @@ class ItemAdapter extends ArrayAdapter<String> {
             imageView.setImageResource(R.drawable.parent);
         }    else  if (item.equals("child")) {
             imageView.setImageResource(R.drawable.childd);
-        }     else  if (item.equals("boysister")) {
+        }     else  if (item.equals("boy sister")) {
             imageView.setImageResource(R.drawable.boy);
-        }       else  if (item.equals("boybroter")) {
+        }       else  if (item.equals("boy brother"))
+        {
             imageView.setImageResource(R.drawable.boy);
-        }     else  if (item.equals("boyuncle")) {
+        }     else  if (item.equals("boy uncle")) {
             imageView.setImageResource(R.drawable.boy);
-        }     else  if (item.equals("boyaunt")) {
-            imageView.setImageResource(R.drawable.parent);
-        }      else  if (item.equals("girlaunt")) {
+        }     else  if (item.equals("girl aunt")) {
             imageView.setImageResource(R.drawable.girl);
-        }      else  if (item.equals("girluncle")) {
+        }      else  if (item.equals("girl uncle")) {
             imageView.setImageResource(R.drawable.girl);
-        }         else  if (item.equals("girlsister")) {
+        }         else  if (item.equals("girl sister")) {
             imageView.setImageResource(R.drawable.girl);
-        }     else  if (item.equals("girlbrother")) {
+        }     else  if (item.equals("girl brother")) {
             imageView.setImageResource(R.drawable.girl);
         }         else  if (item.equals("white")) {
             imageView.setImageResource(R.drawable.white);
